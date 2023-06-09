@@ -1,0 +1,34 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+#logo {
+    font-size: 2em;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+#logo:hover {
+    color: grey;
+    text-decoration: none;
+
+}
+footer small{
+	float: left;
+}
+
+footer ul{
+	float: right;
+	list-style: none;
+}
+
+footer ul li{
+	float: left;
+	margin-left: 15px;
+}
+
+.jumbotron {
+    background-image: asset-url('imageName.jpg');
+    background-size: cover;
+    height: 450px;
+}
